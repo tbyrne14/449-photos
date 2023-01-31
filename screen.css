@@ -1,11 +1,36 @@
 body {
-    background: #fff;
+    background: rgb(189, 188, 188);
+}
+
+main {
+    margin: 0 auto;
+    width: 70%;
 }
 
 .photo {
     display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.photo section {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 2px;
+}
+
+.container {
+    flex-direction: column;
 }
 
 img {
-    width: 100%
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+h1 {
+    text-align: center;
 }
