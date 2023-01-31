@@ -2,3 +2,10 @@ body {
     background: #fff;
 }
 
+.photo {
+    display: flex;
+}
+
+img {
+    width: 100%
+}
